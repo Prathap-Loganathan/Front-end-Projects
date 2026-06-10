@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Calculator</title>
+
+</head>
+
+<body>
+    <form class="Calculator">
+        <input type="text">
+
+        <div class="form-grp">
+                <button type="button" onclick="addele('%')">%</button type="button">
+                <button type="button" onclick="Delete()">DEL</button type="button">
+                <button type="button" onclick="Clearall()">C</button type="button">
+                <button type="button" onclick="addele('/')">/</button type="button">
+        </div>
+
+        <div class="form-grp">
+                <button type="button" onclick="addele('1')">1</button type="button">
+                <button type="button" onclick="addele('2')">2</button type="button">
+                <button type="button" onclick="addele('3')">3</button type="button">
+                <button type="button" onclick="addele('+')">+</button type="button">
+        </div>
+
+        <div class="form-grp">
+                <button type="button" onclick="addele('4')">4</button type="button">
+                <button type="button" onclick="addele('5')">5</button type="button">
+                <button type="button" onclick="addele('6')">6</button type="button">
+                <button type="button" onclick="addele('-')">-</button type="button">
+        </div>
+
+        <div class="form-grp">
+                <button type="button" onclick="addele('7')">7</button type="button">
+                <button type="button" onclick="addele('8')">8</button type="button">
+                <button type="button" onclick="addele('9')">9</button type="button">
+                <button type="button" onclick="addele('*')">*</button type="button">
+        </div>
+
+        <div class="form-grp">
+                <button type="button" onclick="addele('0')">0</button type="button">
+                <button type="button" onclick="addele('00')">00</button type="button">
+                <button type="button" onclick="addele('.')">.</button type="button">
+                <button type="button" onclick="res()" class="equal" >=</button>
+        </div>
+
+    </form>
+    <script src="index.js">
+    </script>
+
+</body>
+
+</html>
